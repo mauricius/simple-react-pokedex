@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test PokemonCard component renders correctly 1`] = `
+<div
+  className="max-w-sm overflow-hidden shadow-lg"
+>
+  <img
+    alt="{props.pokemon.name}"
+    className="w-full"
+    src="https://img.pokemondb.net/artwork/Bulbasaur.jpg"
+  />
+  <div
+    className="px-6 py-4 border-t-2"
+  >
+    <div
+      className="font-bold text-xl mb-2"
+    >
+      Bulbasaur
+       #
+      1
+    </div>
+    <p
+      className="text-grey-darker text-base"
+    >
+      <b>
+        Bulbasaur
+      </b>
+       is a Pokemon that weights 
+      <b>
+        56
+      </b>
+       pounds. Its base experience is 
+      <b>
+        44
+      </b>
+       points.
+    </p>
+  </div>
+  <div
+    className="px-6 py-4"
+  />
+</div>
+`;

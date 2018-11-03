@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test PokemonType component renders correctly 1`] = `
+<span
+  className="inline-block bg-grey-lighter border border-grey rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+>
+  grass
+</span>
+`;

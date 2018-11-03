@@ -1,0 +1,46 @@
+{
+  "name": "simple-react-pokedex",
+  "description": "Simple Pokedex build with React and TailwindCSS",
+  "version": "0.1.0",
+  "author": "Maurizio Bonani <maurizio.bonani@gmail.com>",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauricius/simple-react-pokedex.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mauricius/simple-react-pokedex/issues"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "dragabble",
+    "resizable"
+  ],
+  "dependencies": {
+    "axios": "^0.17.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-test-renderer": "^16.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm run purgecss && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "tailwind": "tailwind build src/App.css src/index.css",
+    "tailwind:normalize": "tailwind build src/normalize.src.css -o public/normalize.css",
+    "purgecss": "node purge_css.js"
+  },
+  "devDependencies": {
+    "moxios": "^0.4.0",
+    "purgecss": "^1.1.0",
+    "purgecss-from-html": "^1.0.0",
+    "tailwindcss": "^0.4.0"
+  }
+}

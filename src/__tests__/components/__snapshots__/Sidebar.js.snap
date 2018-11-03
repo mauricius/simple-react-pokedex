@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Sidebar component renders correctly with a list of pokemon 1`] = `
+<div
+  className="flex z-50 fixed pin-y pin-l bg-grey-lighter w-4/5 md:w-full md:max-w-xs flex-none border-r-2 border-grey-light md:flex flex-col"
+>
+  <div
+    className="mb-4"
+  >
+    <div
+      className="hidden md:flex md:justify-center"
+    >
+      <a
+        className="flex justify-center"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo"
+          src="pokeball.png"
+        />
+      </a>
+    </div>
+    <p
+      className="text-center"
+    >
+      <a
+        className="text-sm hover:text-grey-dark text-grey font-semibold"
+        href="https://github.com/mauricius"
+      >
+        Visit on GitHub
+      </a>
+    </p>
+  </div>
+  <div
+    className="p-8 flex-1 overflow-y-scroll scrolling-touch md:scrolling-auto"
+  >
+    <nav
+      className="text-base"
+    >
+      <form
+        className="mb-4"
+      >
+        <div
+          className="mb-4"
+        >
+          <label
+            className="block text-grey-dark uppercase text-sm font-bold mb-2"
+            htmlFor="search"
+          >
+            Search Pokemon
+          </label>
+          <input
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline"
+            onChange={[Function]}
+            placeholder="Search"
+            type="search"
+            value=""
+          />
+        </div>
+      </form>
+      <ul>
+        <li
+          className="mb-3"
+        >
+          <a
+            className="hover:cursor-pointer hover:text-red text-grey-darkest no-underline"
+            href="/pokemon/1"
+            onClick={[Function]}
+          >
+            bulbasaur
+          </a>
+        </li>
+        <li
+          className="mb-3"
+        >
+          <a
+            className="hover:cursor-pointer hover:text-red text-grey-darkest no-underline"
+            href="/pokemon/2"
+            onClick={[Function]}
+          >
+            ivysaur
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`test Sidebar component renders correctly without pokemon 1`] = `
+<div
+  className="flex z-50 fixed pin-y pin-l bg-grey-lighter w-4/5 md:w-full md:max-w-xs flex-none border-r-2 border-grey-light md:flex flex-col"
+>
+  <div
+    className="mb-4"
+  >
+    <div
+      className="hidden md:flex md:justify-center"
+    >
+      <a
+        className="flex justify-center"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo"
+          src="pokeball.png"
+        />
+      </a>
+    </div>
+    <p
+      className="text-center"
+    >
+      <a
+        className="text-sm hover:text-grey-dark text-grey font-semibold"
+        href="https://github.com/mauricius"
+      >
+        Visit on GitHub
+      </a>
+    </p>
+  </div>
+  <div
+    className="p-8 flex-1 overflow-y-scroll scrolling-touch md:scrolling-auto"
+  >
+    <nav
+      className="text-base"
+    >
+      <form
+        className="mb-4"
+      >
+        <div
+          className="mb-4"
+        >
+          <label
+            className="block text-grey-dark uppercase text-sm font-bold mb-2"
+            htmlFor="search"
+          >
+            Search Pokemon
+          </label>
+          <input
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline"
+            onChange={[Function]}
+            placeholder="Search"
+            type="search"
+            value=""
+          />
+        </div>
+      </form>
+      <ul />
+    </nav>
+  </div>
+</div>
+`;
