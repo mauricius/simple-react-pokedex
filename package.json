@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/mauricius/simple-react-pokedex/issues"
   },
+  "homepage": "https://github.com/mauricius/simple-react-pokedex",
   "keywords": [
     "vue",
     "component",
